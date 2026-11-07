@@ -1,0 +1,14 @@
+print(2 > 5)
+print(2 < 5)
+print(5 == 5)
+print(5 != 5)
+a = 5
+b = 2
+print(b > a)
+print(a < b)
+print(a == a)
+print(b != b)
+name1 = "Миша"
+name2 = "Саша"
+print(name1 == name1)
+print(name2 != name2)
