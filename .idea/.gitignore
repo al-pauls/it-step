@@ -1,0 +1,31 @@
+# Byte-compiled and C extensions
+__pycache__/
+*.py[cod]
+*.so
+
+# Distribution and packaging
+build/
+dist/
+*.egg-info/
+MANIFEST
+
+# Virtual Environments and Environment Variables
+.env
+.venv
+env/
+venv/
+*.local
+
+# Testing, Type Checking, and Linters
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# IDEs, Editors, and OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+.ipynb_checkpoints
