@@ -1,0 +1,35 @@
+import turtle
+def draw_smile(x,y):
+    window = turtle.Screen()
+    t =turtle.Pen()
+    window.bgcolor("black")
+    t.speed(0)
+    t.penup()
+    t.setpos(x,y)
+    t.pendown()
+    t.hideturtle()
+    # Голова
+    t.color("yellow")
+    t.fillcolor("yellow")
+    t.begin_fill()
+    t.circle(50)
+    t.end_fill()
+    # Левый глаз
+    t.setpos(x-15, y+60)
+    t.fillcolor("blue")
+    t.begin_fill()
+    t.circle(10)
+    t.end_fill()
+    # Правый глаз
+    t.setpos(x+15, y+60)
+    t.begin_fill()
+    t.circle(10)
+    t.end_fill()
+    # Рот
+    t.setpos(x-25, y+40)
+    t.color("black")
+    t.width(10)
+    t.goto(x-10, y+20)
+    t.goto(x+10, y+20)
+    t.goto(x+25, y+40)
+    t.width(1)
