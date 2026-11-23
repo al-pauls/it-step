@@ -10,4 +10,4 @@ t.speed(0)
 t.teleport(x, y)
 #t.setpos(x, y)
 turtle.onscreenclick(t.setpos)
-turtle.done()
+turtle.done() #чтобы все работало
